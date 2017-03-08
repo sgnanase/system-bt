@@ -67,7 +67,7 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_MODULE := test-vendor_test_host
-LOCAL_MODULE_TAGS := tests
+LOCAL_MODULE_TAGS := optional
 
 LOCAL_CFLAGS += $(bluetooth_CFLAGS)
 LOCAL_CONLYFLAGS += $(bluetooth_CONLYFLAGS)
